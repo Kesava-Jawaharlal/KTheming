@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HeaderOne</key>
+	<dict>
+		<key>type</key>
+		<string>UILabel</string>
+		<key>font</key>
+		<string>Roboto-Bold</string>
+		<key>textColor</key>
+		<string>#2196F3</string>
+		<key>textSize</key>
+		<integer>18</integer>
+	</dict>
+	<key>HeaderTwo</key>
+	<dict>
+		<key>type</key>
+		<string>UILabel</string>
+		<key>font</key>
+		<string>Roboto-Regular</string>
+		<key>textColor</key>
+		<string>#FF1744</string>
+		<key>textSize</key>
+		<integer>16</integer>
+	</dict>
+	<key>NormalLabel</key>
+	<dict>
+		<key>type</key>
+		<string>UILabel</string>
+		<key>font</key>
+		<string>Roboto-Light</string>
+		<key>textColor</key>
+		<string>#9765A8</string>
+		<key>textSize</key>
+		<integer>14</integer>
+	</dict>
+	<key>SmallLabel</key>
+	<dict>
+		<key>type</key>
+		<string>UILabel</string>
+		<key>font</key>
+		<string>Roboto-Thin</string>
+		<key>textColor</key>
+		<string>#76A865</string>
+		<key>textSize</key>
+		<integer>12</integer>
+	</dict>
+</dict>
+</plist>

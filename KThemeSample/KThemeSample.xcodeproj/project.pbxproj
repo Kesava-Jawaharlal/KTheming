@@ -1,0 +1,1035 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9324F6D41D06DDB30055D94D /* KThemeSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937F16531D06BE30007B5DFF /* KThemeSampleViewController.swift */; };
+		9324F6D51D06DDB30055D94D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937F16511D06BE30007B5DFF /* AppDelegate.swift */; };
+		9324F6D61D06DDB30055D94D /* KTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9364CFF81D06CC8600FDF9E4 /* KTheme.swift */; };
+		9324F6D71D06DDB30055D94D /* KThemeSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937F16911D06C853007B5DFF /* KThemeSampleView.swift */; };
+		9324F6D81D06DDB30055D94D /* KThemeLbl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937F16881D06BFFF007B5DFF /* KThemeLbl.swift */; };
+		9324F6D91D06DDB30055D94D /* UIColor+fromHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 937F16851D06BFAA007B5DFF /* UIColor+fromHex.m */; };
+		9324F6DB1D06DDB30055D94D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81AA01AC9F93693EBB45BC68 /* libPods.a */; };
+		9324F6DD1D06DDB30055D94D /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 937F16991D06C90B007B5DFF /* Roboto-Medium.ttf */; };
+		9324F6DE1D06DDB30055D94D /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 937F169A1D06C90B007B5DFF /* Roboto-Regular.ttf */; };
+		9324F6DF1D06DDB30055D94D /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 937F16951D06C90B007B5DFF /* OpenSans-Light.ttf */; };
+		9324F6E01D06DDB30055D94D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937F165A1D06BE30007B5DFF /* LaunchScreen.storyboard */; };
+		9324F6E11D06DDB30055D94D /* KThemeOne.plist in Resources */ = {isa = PBXBuildFile; fileRef = 937F168E1D06C072007B5DFF /* KThemeOne.plist */; };
+		9324F6E21D06DDB30055D94D /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 937F16961D06C90B007B5DFF /* OpenSans-Regular.ttf */; };
+		9324F6E31D06DDB30055D94D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937F16581D06BE30007B5DFF /* Assets.xcassets */; };
+		9324F6E41D06DDB30055D94D /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 937F16941D06C90B007B5DFF /* OpenSans-Bold.ttf */; };
+		9324F6E51D06DDB30055D94D /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 937F169B1D06C90B007B5DFF /* Roboto-Thin.ttf */; };
+		9324F6E61D06DDB30055D94D /* KThemeTwo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9364CFFB1D06D6EA00FDF9E4 /* KThemeTwo.plist */; };
+		9324F6E71D06DDB30055D94D /* KThemeThree.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9364CFFA1D06D6EA00FDF9E4 /* KThemeThree.plist */; };
+		9324F6E81D06DDB30055D94D /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 937F16971D06C90B007B5DFF /* Roboto-Bold.ttf */; };
+		9324F6E91D06DDB30055D94D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937F16551D06BE30007B5DFF /* Main.storyboard */; };
+		9324F6EA1D06DDB30055D94D /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 937F16981D06C90B007B5DFF /* Roboto-Light.ttf */; };
+		9364D0001D06D78F00FDF9E4 /* KThemeSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937F16531D06BE30007B5DFF /* KThemeSampleViewController.swift */; };
+		9364D0011D06D78F00FDF9E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937F16511D06BE30007B5DFF /* AppDelegate.swift */; };
+		9364D0021D06D78F00FDF9E4 /* KTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9364CFF81D06CC8600FDF9E4 /* KTheme.swift */; };
+		9364D0031D06D78F00FDF9E4 /* KThemeSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937F16911D06C853007B5DFF /* KThemeSampleView.swift */; };
+		9364D0041D06D78F00FDF9E4 /* KThemeLbl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937F16881D06BFFF007B5DFF /* KThemeLbl.swift */; };
+		9364D0051D06D78F00FDF9E4 /* UIColor+fromHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 937F16851D06BFAA007B5DFF /* UIColor+fromHex.m */; };
+		9364D0081D06D78F00FDF9E4 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 937F16991D06C90B007B5DFF /* Roboto-Medium.ttf */; };
+		9364D0091D06D78F00FDF9E4 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 937F169A1D06C90B007B5DFF /* Roboto-Regular.ttf */; };
+		9364D00A1D06D78F00FDF9E4 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 937F16951D06C90B007B5DFF /* OpenSans-Light.ttf */; };
+		9364D00B1D06D78F00FDF9E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937F165A1D06BE30007B5DFF /* LaunchScreen.storyboard */; };
+		9364D00C1D06D78F00FDF9E4 /* KThemeOne.plist in Resources */ = {isa = PBXBuildFile; fileRef = 937F168E1D06C072007B5DFF /* KThemeOne.plist */; };
+		9364D00D1D06D78F00FDF9E4 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 937F16961D06C90B007B5DFF /* OpenSans-Regular.ttf */; };
+		9364D00E1D06D78F00FDF9E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937F16581D06BE30007B5DFF /* Assets.xcassets */; };
+		9364D00F1D06D78F00FDF9E4 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 937F16941D06C90B007B5DFF /* OpenSans-Bold.ttf */; };
+		9364D0101D06D78F00FDF9E4 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 937F169B1D06C90B007B5DFF /* Roboto-Thin.ttf */; };
+		9364D0111D06D78F00FDF9E4 /* KThemeTwo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9364CFFB1D06D6EA00FDF9E4 /* KThemeTwo.plist */; };
+		9364D0121D06D78F00FDF9E4 /* KThemeThree.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9364CFFA1D06D6EA00FDF9E4 /* KThemeThree.plist */; };
+		9364D0131D06D78F00FDF9E4 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 937F16971D06C90B007B5DFF /* Roboto-Bold.ttf */; };
+		9364D0141D06D78F00FDF9E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937F16551D06BE30007B5DFF /* Main.storyboard */; };
+		9364D0151D06D78F00FDF9E4 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 937F16981D06C90B007B5DFF /* Roboto-Light.ttf */; };
+		9364D01D1D06D84F00FDF9E4 /* KThemeSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937F16531D06BE30007B5DFF /* KThemeSampleViewController.swift */; };
+		9364D01E1D06D84F00FDF9E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937F16511D06BE30007B5DFF /* AppDelegate.swift */; };
+		9364D01F1D06D84F00FDF9E4 /* KTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9364CFF81D06CC8600FDF9E4 /* KTheme.swift */; };
+		9364D0201D06D84F00FDF9E4 /* KThemeSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937F16911D06C853007B5DFF /* KThemeSampleView.swift */; };
+		9364D0211D06D84F00FDF9E4 /* KThemeLbl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937F16881D06BFFF007B5DFF /* KThemeLbl.swift */; };
+		9364D0221D06D84F00FDF9E4 /* UIColor+fromHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 937F16851D06BFAA007B5DFF /* UIColor+fromHex.m */; };
+		9364D0251D06D84F00FDF9E4 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 937F16991D06C90B007B5DFF /* Roboto-Medium.ttf */; };
+		9364D0261D06D84F00FDF9E4 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 937F169A1D06C90B007B5DFF /* Roboto-Regular.ttf */; };
+		9364D0271D06D84F00FDF9E4 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 937F16951D06C90B007B5DFF /* OpenSans-Light.ttf */; };
+		9364D0281D06D84F00FDF9E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937F165A1D06BE30007B5DFF /* LaunchScreen.storyboard */; };
+		9364D0291D06D84F00FDF9E4 /* KThemeOne.plist in Resources */ = {isa = PBXBuildFile; fileRef = 937F168E1D06C072007B5DFF /* KThemeOne.plist */; };
+		9364D02A1D06D84F00FDF9E4 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 937F16961D06C90B007B5DFF /* OpenSans-Regular.ttf */; };
+		9364D02B1D06D84F00FDF9E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937F16581D06BE30007B5DFF /* Assets.xcassets */; };
+		9364D02C1D06D84F00FDF9E4 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 937F16941D06C90B007B5DFF /* OpenSans-Bold.ttf */; };
+		9364D02D1D06D84F00FDF9E4 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 937F169B1D06C90B007B5DFF /* Roboto-Thin.ttf */; };
+		9364D02E1D06D84F00FDF9E4 /* KThemeTwo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9364CFFB1D06D6EA00FDF9E4 /* KThemeTwo.plist */; };
+		9364D02F1D06D84F00FDF9E4 /* KThemeThree.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9364CFFA1D06D6EA00FDF9E4 /* KThemeThree.plist */; };
+		9364D0301D06D84F00FDF9E4 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 937F16971D06C90B007B5DFF /* Roboto-Bold.ttf */; };
+		9364D0311D06D84F00FDF9E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937F16551D06BE30007B5DFF /* Main.storyboard */; };
+		9364D0321D06D84F00FDF9E4 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 937F16981D06C90B007B5DFF /* Roboto-Light.ttf */; };
+		937F16671D06BE30007B5DFF /* KThemeSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937F16661D06BE30007B5DFF /* KThemeSampleTests.swift */; };
+		937F16721D06BE30007B5DFF /* KThemeSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937F16711D06BE30007B5DFF /* KThemeSampleUITests.swift */; };
+		BE205873EFC8BD6DA3E86FDD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81AA01AC9F93693EBB45BC68 /* libPods.a */; };
+		D217B1FCFCCC571C8FAAC048 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81AA01AC9F93693EBB45BC68 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F645237564E6CDDF64F317E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		3814F201EB034455537CB1AA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		5B9BF211EF85618533A1C10E /* libPods-KThemeSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KThemeSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AA01AC9F93693EBB45BC68 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D2402CACD8E02635C2BEC6E /* Pods-KThemeSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KThemeSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KThemeSample/Pods-KThemeSample.debug.xcconfig"; sourceTree = "<group>"; };
+		9324F6F01D06DDB30055D94D /* KThemeSampleOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KThemeSampleOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9324F6F11D06DDB30055D94D /* KThemeSampleOne-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "KThemeSampleOne-Info.plist"; path = "/Users/Kesava/Documents/Workspace/KThemeSample/KThemeSampleOne-Info.plist"; sourceTree = "<absolute>"; };
+		9364CFF81D06CC8600FDF9E4 /* KTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KTheme.swift; path = Classes/Themes/KTheme.swift; sourceTree = "<group>"; };
+		9364CFFA1D06D6EA00FDF9E4 /* KThemeThree.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = KThemeThree.plist; path = Resources/KThemeThree.plist; sourceTree = "<group>"; };
+		9364CFFB1D06D6EA00FDF9E4 /* KThemeTwo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = KThemeTwo.plist; path = Resources/KThemeTwo.plist; sourceTree = "<group>"; };
+		9364D0191D06D78F00FDF9E4 /* KThemeSampleTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KThemeSampleTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9364D01A1D06D78F00FDF9E4 /* KThemeSampleTwo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "KThemeSampleTwo-Info.plist"; path = "/Users/Kesava/Documents/Workspace/KThemeSample/KThemeSampleTwo-Info.plist"; sourceTree = "<absolute>"; };
+		9364D0361D06D84F00FDF9E4 /* KThemeSampleThree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KThemeSampleThree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9364D0371D06D84F00FDF9E4 /* KThemeSampleThree-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "KThemeSampleThree-Info.plist"; path = "/Users/Kesava/Documents/Workspace/KThemeSample/KThemeSampleThree-Info.plist"; sourceTree = "<absolute>"; };
+		937F16511D06BE30007B5DFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Classes/AppDelegate.swift; sourceTree = "<group>"; };
+		937F16531D06BE30007B5DFF /* KThemeSampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KThemeSampleViewController.swift; path = Classes/ViewControllers/KThemeSampleViewController.swift; sourceTree = "<group>"; };
+		937F16561D06BE30007B5DFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		937F16581D06BE30007B5DFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		937F165B1D06BE30007B5DFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		937F165D1D06BE30007B5DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		937F16621D06BE30007B5DFF /* KThemeSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KThemeSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		937F16661D06BE30007B5DFF /* KThemeSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KThemeSampleTests.swift; sourceTree = "<group>"; };
+		937F16681D06BE30007B5DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		937F166D1D06BE30007B5DFF /* KThemeSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KThemeSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		937F16711D06BE30007B5DFF /* KThemeSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KThemeSampleUITests.swift; sourceTree = "<group>"; };
+		937F16731D06BE30007B5DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		937F16831D06BFAA007B5DFF /* KThemeSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KThemeSample-Bridging-Header.h"; sourceTree = "<group>"; };
+		937F16841D06BFAA007B5DFF /* UIColor+fromHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+fromHex.h"; path = "Classes/Categories/UIColor+fromHex.h"; sourceTree = "<group>"; };
+		937F16851D06BFAA007B5DFF /* UIColor+fromHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+fromHex.m"; path = "Classes/Categories/UIColor+fromHex.m"; sourceTree = "<group>"; };
+		937F16881D06BFFF007B5DFF /* KThemeLbl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KThemeLbl.swift; path = Classes/Controls/KThemeLbl.swift; sourceTree = "<group>"; };
+		937F168E1D06C072007B5DFF /* KThemeOne.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = KThemeOne.plist; path = Resources/KThemeOne.plist; sourceTree = "<group>"; };
+		937F16911D06C853007B5DFF /* KThemeSampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KThemeSampleView.swift; path = Classes/ViewControllers/Views/KThemeSampleView.swift; sourceTree = "<group>"; };
+		937F16941D06C90B007B5DFF /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Bold.ttf"; path = "Resources/Fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		937F16951D06C90B007B5DFF /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Light.ttf"; path = "Resources/Fonts/OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		937F16961D06C90B007B5DFF /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Regular.ttf"; path = "Resources/Fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		937F16971D06C90B007B5DFF /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "Resources/Fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		937F16981D06C90B007B5DFF /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Light.ttf"; path = "Resources/Fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
+		937F16991D06C90B007B5DFF /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Medium.ttf"; path = "Resources/Fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		937F169A1D06C90B007B5DFF /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "Resources/Fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		937F169B1D06C90B007B5DFF /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Thin.ttf"; path = "Resources/Fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		95A727AE7E0E37A7220D610C /* Pods-KThemeSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KThemeSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-KThemeSample/Pods-KThemeSample.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9324F6DA1D06DDB30055D94D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9324F6DB1D06DDB30055D94D /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9364D0061D06D78F00FDF9E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D217B1FCFCCC571C8FAAC048 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9364D0231D06D84F00FDF9E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE205873EFC8BD6DA3E86FDD /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		937F165F1D06BE30007B5DFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		937F166A1D06BE30007B5DFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A7AEDD4E07D276C4EF4F311 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D2402CACD8E02635C2BEC6E /* Pods-KThemeSample.debug.xcconfig */,
+				95A727AE7E0E37A7220D610C /* Pods-KThemeSample.release.xcconfig */,
+				2F645237564E6CDDF64F317E /* Pods.debug.xcconfig */,
+				3814F201EB034455537CB1AA /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8EA05874CC1460C1F76DC220 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B9BF211EF85618533A1C10E /* libPods-KThemeSample.a */,
+				81AA01AC9F93693EBB45BC68 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		937F16451D06BE30007B5DFF = {
+			isa = PBXGroup;
+			children = (
+				937F16501D06BE30007B5DFF /* KThemeSample */,
+				937F16651D06BE30007B5DFF /* KThemeSampleTests */,
+				937F16701D06BE30007B5DFF /* KThemeSampleUITests */,
+				937F164F1D06BE30007B5DFF /* Products */,
+				4A7AEDD4E07D276C4EF4F311 /* Pods */,
+				8EA05874CC1460C1F76DC220 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		937F164F1D06BE30007B5DFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				937F16621D06BE30007B5DFF /* KThemeSampleTests.xctest */,
+				937F166D1D06BE30007B5DFF /* KThemeSampleUITests.xctest */,
+				9364D0191D06D78F00FDF9E4 /* KThemeSampleTwo.app */,
+				9364D0361D06D84F00FDF9E4 /* KThemeSampleThree.app */,
+				9324F6F01D06DDB30055D94D /* KThemeSampleOne.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		937F16501D06BE30007B5DFF /* KThemeSample */ = {
+			isa = PBXGroup;
+			children = (
+				937F167F1D06BE41007B5DFF /* Classes */,
+				937F16811D06BE98007B5DFF /* Resources */,
+				937F16831D06BFAA007B5DFF /* KThemeSample-Bridging-Header.h */,
+				9364D0371D06D84F00FDF9E4 /* KThemeSampleThree-Info.plist */,
+				9364D01A1D06D78F00FDF9E4 /* KThemeSampleTwo-Info.plist */,
+				9324F6F11D06DDB30055D94D /* KThemeSampleOne-Info.plist */,
+				937F165D1D06BE30007B5DFF /* Info.plist */,
+			);
+			path = KThemeSample;
+			sourceTree = "<group>";
+		};
+		937F16651D06BE30007B5DFF /* KThemeSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				937F16661D06BE30007B5DFF /* KThemeSampleTests.swift */,
+				937F16681D06BE30007B5DFF /* Info.plist */,
+			);
+			path = KThemeSampleTests;
+			sourceTree = "<group>";
+		};
+		937F16701D06BE30007B5DFF /* KThemeSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				937F16711D06BE30007B5DFF /* KThemeSampleUITests.swift */,
+				937F16731D06BE30007B5DFF /* Info.plist */,
+			);
+			path = KThemeSampleUITests;
+			sourceTree = "<group>";
+		};
+		937F167F1D06BE41007B5DFF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				937F168A1D06C02F007B5DFF /* Theme */,
+				937F16871D06BFF3007B5DFF /* Controls */,
+				937F16821D06BF9B007B5DFF /* Categories */,
+				937F16801D06BE82007B5DFF /* ViewControllers */,
+				937F16511D06BE30007B5DFF /* AppDelegate.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		937F16801D06BE82007B5DFF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				937F16901D06C834007B5DFF /* Views */,
+				937F16531D06BE30007B5DFF /* KThemeSampleViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		937F16811D06BE98007B5DFF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				937F16931D06C8FD007B5DFF /* Fonts */,
+				937F168E1D06C072007B5DFF /* KThemeOne.plist */,
+				9364CFFA1D06D6EA00FDF9E4 /* KThemeThree.plist */,
+				9364CFFB1D06D6EA00FDF9E4 /* KThemeTwo.plist */,
+				937F16581D06BE30007B5DFF /* Assets.xcassets */,
+				937F165A1D06BE30007B5DFF /* LaunchScreen.storyboard */,
+				937F16551D06BE30007B5DFF /* Main.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		937F16821D06BF9B007B5DFF /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				937F16841D06BFAA007B5DFF /* UIColor+fromHex.h */,
+				937F16851D06BFAA007B5DFF /* UIColor+fromHex.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		937F16871D06BFF3007B5DFF /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				937F16881D06BFFF007B5DFF /* KThemeLbl.swift */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+		937F168A1D06C02F007B5DFF /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				9364CFF81D06CC8600FDF9E4 /* KTheme.swift */,
+			);
+			name = Theme;
+			sourceTree = "<group>";
+		};
+		937F16901D06C834007B5DFF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				937F16911D06C853007B5DFF /* KThemeSampleView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		937F16931D06C8FD007B5DFF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				937F16941D06C90B007B5DFF /* OpenSans-Bold.ttf */,
+				937F16951D06C90B007B5DFF /* OpenSans-Light.ttf */,
+				937F16961D06C90B007B5DFF /* OpenSans-Regular.ttf */,
+				937F16971D06C90B007B5DFF /* Roboto-Bold.ttf */,
+				937F16981D06C90B007B5DFF /* Roboto-Light.ttf */,
+				937F16991D06C90B007B5DFF /* Roboto-Medium.ttf */,
+				937F169A1D06C90B007B5DFF /* Roboto-Regular.ttf */,
+				937F169B1D06C90B007B5DFF /* Roboto-Thin.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9324F6D11D06DDB30055D94D /* KThemeSampleOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9324F6ED1D06DDB30055D94D /* Build configuration list for PBXNativeTarget "KThemeSampleOne" */;
+			buildPhases = (
+				9324F6D21D06DDB30055D94D /* Check Pods Manifest.lock */,
+				9324F6D31D06DDB30055D94D /* Sources */,
+				9324F6DA1D06DDB30055D94D /* Frameworks */,
+				9324F6DC1D06DDB30055D94D /* Resources */,
+				9324F6EB1D06DDB30055D94D /* Embed Pods Frameworks */,
+				9324F6EC1D06DDB30055D94D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KThemeSampleOne;
+			productName = KThemeSample;
+			productReference = 9324F6F01D06DDB30055D94D /* KThemeSampleOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9364CFFE1D06D78F00FDF9E4 /* KThemeSampleTwo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9364D0161D06D78F00FDF9E4 /* Build configuration list for PBXNativeTarget "KThemeSampleTwo" */;
+			buildPhases = (
+				9D7460264A552E4ED8402D12 /* Check Pods Manifest.lock */,
+				9364CFFF1D06D78F00FDF9E4 /* Sources */,
+				9364D0061D06D78F00FDF9E4 /* Frameworks */,
+				9364D0071D06D78F00FDF9E4 /* Resources */,
+				28C56F8DCD40A35FC67547B2 /* Embed Pods Frameworks */,
+				F642876CB64A225BDFD94A46 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KThemeSampleTwo;
+			productName = KThemeSample;
+			productReference = 9364D0191D06D78F00FDF9E4 /* KThemeSampleTwo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9364D01B1D06D84F00FDF9E4 /* KThemeSampleThree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9364D0331D06D84F00FDF9E4 /* Build configuration list for PBXNativeTarget "KThemeSampleThree" */;
+			buildPhases = (
+				1A1284880CD52771D0063198 /* Check Pods Manifest.lock */,
+				9364D01C1D06D84F00FDF9E4 /* Sources */,
+				9364D0231D06D84F00FDF9E4 /* Frameworks */,
+				9364D0241D06D84F00FDF9E4 /* Resources */,
+				A56B333BC2A1D105E046EBA0 /* Embed Pods Frameworks */,
+				260F608471216416C3C9DFF0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KThemeSampleThree;
+			productName = KThemeSample;
+			productReference = 9364D0361D06D84F00FDF9E4 /* KThemeSampleThree.app */;
+			productType = "com.apple.product-type.application";
+		};
+		937F16611D06BE30007B5DFF /* KThemeSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 937F16791D06BE30007B5DFF /* Build configuration list for PBXNativeTarget "KThemeSampleTests" */;
+			buildPhases = (
+				937F165E1D06BE30007B5DFF /* Sources */,
+				937F165F1D06BE30007B5DFF /* Frameworks */,
+				937F16601D06BE30007B5DFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KThemeSampleTests;
+			productName = KThemeSampleTests;
+			productReference = 937F16621D06BE30007B5DFF /* KThemeSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		937F166C1D06BE30007B5DFF /* KThemeSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 937F167C1D06BE30007B5DFF /* Build configuration list for PBXNativeTarget "KThemeSampleUITests" */;
+			buildPhases = (
+				937F16691D06BE30007B5DFF /* Sources */,
+				937F166A1D06BE30007B5DFF /* Frameworks */,
+				937F166B1D06BE30007B5DFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KThemeSampleUITests;
+			productName = KThemeSampleUITests;
+			productReference = 937F166D1D06BE30007B5DFF /* KThemeSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		937F16461D06BE30007B5DFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Small Screen Science Ltd";
+				TargetAttributes = {
+					937F16611D06BE30007B5DFF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 937F164D1D06BE30007B5DFF;
+					};
+					937F166C1D06BE30007B5DFF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 937F164D1D06BE30007B5DFF;
+					};
+				};
+			};
+			buildConfigurationList = 937F16491D06BE30007B5DFF /* Build configuration list for PBXProject "KThemeSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 937F16451D06BE30007B5DFF;
+			productRefGroup = 937F164F1D06BE30007B5DFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				937F16611D06BE30007B5DFF /* KThemeSampleTests */,
+				937F166C1D06BE30007B5DFF /* KThemeSampleUITests */,
+				9324F6D11D06DDB30055D94D /* KThemeSampleOne */,
+				9364CFFE1D06D78F00FDF9E4 /* KThemeSampleTwo */,
+				9364D01B1D06D84F00FDF9E4 /* KThemeSampleThree */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9324F6DC1D06DDB30055D94D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9324F6DD1D06DDB30055D94D /* Roboto-Medium.ttf in Resources */,
+				9324F6DE1D06DDB30055D94D /* Roboto-Regular.ttf in Resources */,
+				9324F6DF1D06DDB30055D94D /* OpenSans-Light.ttf in Resources */,
+				9324F6E01D06DDB30055D94D /* LaunchScreen.storyboard in Resources */,
+				9324F6E11D06DDB30055D94D /* KThemeOne.plist in Resources */,
+				9324F6E21D06DDB30055D94D /* OpenSans-Regular.ttf in Resources */,
+				9324F6E31D06DDB30055D94D /* Assets.xcassets in Resources */,
+				9324F6E41D06DDB30055D94D /* OpenSans-Bold.ttf in Resources */,
+				9324F6E51D06DDB30055D94D /* Roboto-Thin.ttf in Resources */,
+				9324F6E61D06DDB30055D94D /* KThemeTwo.plist in Resources */,
+				9324F6E71D06DDB30055D94D /* KThemeThree.plist in Resources */,
+				9324F6E81D06DDB30055D94D /* Roboto-Bold.ttf in Resources */,
+				9324F6E91D06DDB30055D94D /* Main.storyboard in Resources */,
+				9324F6EA1D06DDB30055D94D /* Roboto-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9364D0071D06D78F00FDF9E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9364D0081D06D78F00FDF9E4 /* Roboto-Medium.ttf in Resources */,
+				9364D0091D06D78F00FDF9E4 /* Roboto-Regular.ttf in Resources */,
+				9364D00A1D06D78F00FDF9E4 /* OpenSans-Light.ttf in Resources */,
+				9364D00B1D06D78F00FDF9E4 /* LaunchScreen.storyboard in Resources */,
+				9364D00C1D06D78F00FDF9E4 /* KThemeOne.plist in Resources */,
+				9364D00D1D06D78F00FDF9E4 /* OpenSans-Regular.ttf in Resources */,
+				9364D00E1D06D78F00FDF9E4 /* Assets.xcassets in Resources */,
+				9364D00F1D06D78F00FDF9E4 /* OpenSans-Bold.ttf in Resources */,
+				9364D0101D06D78F00FDF9E4 /* Roboto-Thin.ttf in Resources */,
+				9364D0111D06D78F00FDF9E4 /* KThemeTwo.plist in Resources */,
+				9364D0121D06D78F00FDF9E4 /* KThemeThree.plist in Resources */,
+				9364D0131D06D78F00FDF9E4 /* Roboto-Bold.ttf in Resources */,
+				9364D0141D06D78F00FDF9E4 /* Main.storyboard in Resources */,
+				9364D0151D06D78F00FDF9E4 /* Roboto-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9364D0241D06D84F00FDF9E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9364D0251D06D84F00FDF9E4 /* Roboto-Medium.ttf in Resources */,
+				9364D0261D06D84F00FDF9E4 /* Roboto-Regular.ttf in Resources */,
+				9364D0271D06D84F00FDF9E4 /* OpenSans-Light.ttf in Resources */,
+				9364D0281D06D84F00FDF9E4 /* LaunchScreen.storyboard in Resources */,
+				9364D0291D06D84F00FDF9E4 /* KThemeOne.plist in Resources */,
+				9364D02A1D06D84F00FDF9E4 /* OpenSans-Regular.ttf in Resources */,
+				9364D02B1D06D84F00FDF9E4 /* Assets.xcassets in Resources */,
+				9364D02C1D06D84F00FDF9E4 /* OpenSans-Bold.ttf in Resources */,
+				9364D02D1D06D84F00FDF9E4 /* Roboto-Thin.ttf in Resources */,
+				9364D02E1D06D84F00FDF9E4 /* KThemeTwo.plist in Resources */,
+				9364D02F1D06D84F00FDF9E4 /* KThemeThree.plist in Resources */,
+				9364D0301D06D84F00FDF9E4 /* Roboto-Bold.ttf in Resources */,
+				9364D0311D06D84F00FDF9E4 /* Main.storyboard in Resources */,
+				9364D0321D06D84F00FDF9E4 /* Roboto-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		937F16601D06BE30007B5DFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		937F166B1D06BE30007B5DFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A1284880CD52771D0063198 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		260F608471216416C3C9DFF0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28C56F8DCD40A35FC67547B2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9324F6D21D06DDB30055D94D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9324F6EB1D06DDB30055D94D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9324F6EC1D06DDB30055D94D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D7460264A552E4ED8402D12 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A56B333BC2A1D105E046EBA0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F642876CB64A225BDFD94A46 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9324F6D31D06DDB30055D94D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9324F6D41D06DDB30055D94D /* KThemeSampleViewController.swift in Sources */,
+				9324F6D51D06DDB30055D94D /* AppDelegate.swift in Sources */,
+				9324F6D61D06DDB30055D94D /* KTheme.swift in Sources */,
+				9324F6D71D06DDB30055D94D /* KThemeSampleView.swift in Sources */,
+				9324F6D81D06DDB30055D94D /* KThemeLbl.swift in Sources */,
+				9324F6D91D06DDB30055D94D /* UIColor+fromHex.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9364CFFF1D06D78F00FDF9E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9364D0001D06D78F00FDF9E4 /* KThemeSampleViewController.swift in Sources */,
+				9364D0011D06D78F00FDF9E4 /* AppDelegate.swift in Sources */,
+				9364D0021D06D78F00FDF9E4 /* KTheme.swift in Sources */,
+				9364D0031D06D78F00FDF9E4 /* KThemeSampleView.swift in Sources */,
+				9364D0041D06D78F00FDF9E4 /* KThemeLbl.swift in Sources */,
+				9364D0051D06D78F00FDF9E4 /* UIColor+fromHex.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9364D01C1D06D84F00FDF9E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9364D01D1D06D84F00FDF9E4 /* KThemeSampleViewController.swift in Sources */,
+				9364D01E1D06D84F00FDF9E4 /* AppDelegate.swift in Sources */,
+				9364D01F1D06D84F00FDF9E4 /* KTheme.swift in Sources */,
+				9364D0201D06D84F00FDF9E4 /* KThemeSampleView.swift in Sources */,
+				9364D0211D06D84F00FDF9E4 /* KThemeLbl.swift in Sources */,
+				9364D0221D06D84F00FDF9E4 /* UIColor+fromHex.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		937F165E1D06BE30007B5DFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				937F16671D06BE30007B5DFF /* KThemeSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		937F16691D06BE30007B5DFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				937F16721D06BE30007B5DFF /* KThemeSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		937F16551D06BE30007B5DFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				937F16561D06BE30007B5DFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		937F165A1D06BE30007B5DFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				937F165B1D06BE30007B5DFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9324F6EE1D06DDB30055D94D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F645237564E6CDDF64F317E /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/KThemeSampleOne-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sss.kt.KThemeSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KThemeSample/KThemeSample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9324F6EF1D06DDB30055D94D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3814F201EB034455537CB1AA /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/KThemeSampleOne-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sss.kt.KThemeSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KThemeSample/KThemeSample-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		9364D0171D06D78F00FDF9E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F645237564E6CDDF64F317E /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/KThemeSampleTwo-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sss.kt.KThemeSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KThemeSample/KThemeSample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9364D0181D06D78F00FDF9E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3814F201EB034455537CB1AA /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/KThemeSampleTwo-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sss.kt.KThemeSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KThemeSample/KThemeSample-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		9364D0341D06D84F00FDF9E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F645237564E6CDDF64F317E /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/KThemeSampleThree-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sss.kt.KThemeSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KThemeSample/KThemeSample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9364D0351D06D84F00FDF9E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3814F201EB034455537CB1AA /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/KThemeSampleThree-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sss.kt.KThemeSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KThemeSample/KThemeSample-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		937F16741D06BE30007B5DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		937F16751D06BE30007B5DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		937F167A1D06BE30007B5DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KThemeSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sss.kt.KThemeSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KThemeSample.app/KThemeSample";
+			};
+			name = Debug;
+		};
+		937F167B1D06BE30007B5DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KThemeSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sss.kt.KThemeSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KThemeSample.app/KThemeSample";
+			};
+			name = Release;
+		};
+		937F167D1D06BE30007B5DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KThemeSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sss.kt.KThemeSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KThemeSample;
+			};
+			name = Debug;
+		};
+		937F167E1D06BE30007B5DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KThemeSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sss.kt.KThemeSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KThemeSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9324F6ED1D06DDB30055D94D /* Build configuration list for PBXNativeTarget "KThemeSampleOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9324F6EE1D06DDB30055D94D /* Debug */,
+				9324F6EF1D06DDB30055D94D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9364D0161D06D78F00FDF9E4 /* Build configuration list for PBXNativeTarget "KThemeSampleTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9364D0171D06D78F00FDF9E4 /* Debug */,
+				9364D0181D06D78F00FDF9E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9364D0331D06D84F00FDF9E4 /* Build configuration list for PBXNativeTarget "KThemeSampleThree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9364D0341D06D84F00FDF9E4 /* Debug */,
+				9364D0351D06D84F00FDF9E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		937F16491D06BE30007B5DFF /* Build configuration list for PBXProject "KThemeSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				937F16741D06BE30007B5DFF /* Debug */,
+				937F16751D06BE30007B5DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		937F16791D06BE30007B5DFF /* Build configuration list for PBXNativeTarget "KThemeSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				937F167A1D06BE30007B5DFF /* Debug */,
+				937F167B1D06BE30007B5DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		937F167C1D06BE30007B5DFF /* Build configuration list for PBXNativeTarget "KThemeSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				937F167D1D06BE30007B5DFF /* Debug */,
+				937F167E1D06BE30007B5DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 937F16461D06BE30007B5DFF /* Project object */;
+}
